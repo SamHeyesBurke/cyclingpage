@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgb(243, 242, 226);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+header {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+h1 {
+    width: 90%;
+    height: 10%;
+    position: relative;
+    left: 3%;
+    margin-bottom: 5%;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+#groupRide {
+    width: 40%;
+    height: 60%;
+    transition-duration: 1s;
+}
+
+#headerText {
+    width: 40%;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 1120px) {
+    #headerText {
+        font-size: 1.5rem;
+    }
+    #groupRide {
+        width: 50%;
+        transition-duration: 1s;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #headerText{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    header {
+        flex-direction: column;
+    }
+    #headerText {
+        margin: 2%;
+        width: 80%;
+    }
+    #groupRide {
+        width: 80%;
+        transition-duration: 1s;
+    }
+}
+
+
+main {
+ background-color: whitesmoke;
+ width: 100%;
+ height: 100%;
+}
